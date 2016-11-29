@@ -11,21 +11,6 @@ sass:
   style: :compressed
   sass_dir: _sass
 
-# Markdown
-highlighter: rouge
-
-# kramdown:
-#   input: GFM
-#   hard_wrap: false
-#   syntax_highlighter: rouge
-#   syntax_highlighter_opts:
-#     css_class: 'highlight'
-#     span:
-#       line_numbers: false
-#     block:
-#       line_numbers: false
-#       # start_line: 1
-
 # File management
 include: [".htaccess"]
 exclude:
@@ -42,6 +27,3 @@ exclude:
 
 post_layout: post
 page_layout: default
-
-gems:
-  - rouge
