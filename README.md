@@ -26,3 +26,6 @@ http://github.com/yurifrl/yurifrl.github.io would be appreciated, but is not req
 ## This is a fork
 this is a mix from [Getmicah Blog](https://github.com/getmicah/blog)
 and [Tom Preston-Werner](https://github.com/mojombo/mojombo.github.io)
+
+## Markdown
+[Kramdown](http://kramdown.gettalong.org/syntax.html)

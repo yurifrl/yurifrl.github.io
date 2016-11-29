@@ -1,0 +1,10 @@
+version: '2'
+services:
+  producer:
+    image: python:alpine
+    ports:
+      - 80:80
+    working_dir: /app
+    command: python3 -m http.server 80
+    volumes:
+      - ./:/app
