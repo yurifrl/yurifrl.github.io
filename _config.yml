@@ -1,27 +1,26 @@
-# Permalinks
-#
-permalink: /:title
+# Blog settings
+permalink: /blog/:title
 
-# Setup
-title: Yuri's Blog
-tagline: "Yuris blog"
-description: 'My blog'
-url: yurifrl.com
-baseurl: ''
-paginate: 5
+# My variables
+name: Yuri Freire Lima
+description: Futuristic web design
+google_verification: null
 
-# About/contact
-author:
-  name: Yuri Freire lima
-  url:  https://twitter.com/yurifrl
-  email: yurifrl@outlook.com
+# Sass
+sass:
+  style: :compressed
+  sass_dir: _sass
 
-# Custom vars
-version: 1.0.0
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
 
-gems:
-  - jekyll-paginate
 
+# File management
+include: [".htaccess"]
 exclude:
   - bin
   - config.rb
@@ -33,4 +32,3 @@ exclude:
   - README.md
   - script
   - vendor
-  - docker-compose.yml
