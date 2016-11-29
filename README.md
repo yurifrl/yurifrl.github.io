@@ -24,4 +24,4 @@ http://github.com/mojombo/jekyll would be appreciated, but is not required.
 
 
 ## This is a fork
-this is a fork from [Getmicah Blog]()https://github.com/getmicah/blog)
+this is a fork from [Getmicah Blog](https://github.com/getmicah/blog)
