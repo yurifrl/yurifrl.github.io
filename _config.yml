@@ -1,9 +1,6 @@
 # Permalinks
 #
-# Use of `relative_permalinks` ensures post links from the index work properly.
 permalink: /:title
-# permalink: pretty
-# relative_permalinks: true
 
 # Setup
 title: Yuri's Blog
@@ -24,4 +21,16 @@ version: 1.0.0
 
 gems:
   - jekyll-paginate
-  # - relative_permalinks
+
+exclude:
+  - bin
+  - config.rb
+  - Gemfile
+  - Gemfile.lock
+  - gems
+  - Procfile
+  - Rakefile
+  - README.md
+  - script
+  - vendor
+  - docker-compose.yml
