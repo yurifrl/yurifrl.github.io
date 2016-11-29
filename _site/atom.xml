@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog]]></title>
   <link href="yurifrl.com/atom.xml" rel="self"/>
   <link href="yurifrl.com/"/>
-  <updated>2016-11-29T18:39:29+00:00</updated>
+  <updated>2016-11-29T19:31:20+00:00</updated>
   <id>yurifrl.com/</id>
   <author>
     <name><![CDATA[Yuri Freire Lima]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Hello Blog]]></title>
-    <link href="yurifrl.com/blog/hello-blog"/>
+    <link href="yurifrl.com/hello-blog"/>
     <updated>2016-11-29T18:06:16+00:00</updated>
-    <id>yurifrl.com/blog/hello-blog</id>
+    <id>yurifrl.com/hello-blog</id>
     <content type="html"><![CDATA[<h1 id="hello-blog">Hello Blog</h1>
 
 <p>Hello from my amazing jekyll octopress blog</p>

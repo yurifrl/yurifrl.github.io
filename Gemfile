@@ -8,5 +8,8 @@ gem 'rb-fsevent', '~> 0.9'
 gem 'stringex', '~> 1.4.0'
 gem "octopress"
 
-gem "jekyll-feed"
-gem 'jekyll-sitemap'
+# gem 'jekyll-gist'
+# gem 'jemoji'
+# gem "jekyll-feed"
+# gem 'jekyll-sitemap'
+# gem 'github-pages'

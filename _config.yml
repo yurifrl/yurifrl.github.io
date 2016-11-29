@@ -10,8 +10,7 @@ subscribe_rss: /atom.xml
 simple_search: https://www.google.com/search
 date_format: "ordinal"
 
-root: /
-permalink: /blog/:title
+permalink: /:title
 
 plugins: _plugins
 sass_dir: _sass
@@ -29,9 +28,9 @@ titlecase: true
 default_asides:
   - asides/recent_posts.html
   - asides/github.html
-  - asides/delicious.html
-  - asides/pinboard.html
-  - asides/googleplus.html
+  # - asides/delicious.html
+  # - asides/pinboard.html
+  # - asides/googleplus.html
 
 # blog_index_asides:
 # post_asides:
@@ -46,5 +45,22 @@ twitter_tweet_button: true
 disqus_short_name:
 twitter_user: yurifrl
 
-gems:
-  - jekyll-sitemap
+post_layout: post
+page_layout: page
+
+# Format titles with titlecase?
+titlecase: true
+
+theme: minima
+
+exclude:
+  - bin
+  - config.rb
+  - Gemfile
+  - Gemfile.lock
+  - gems
+  - Procfile
+  - Rakefile
+  - README.md
+  - script
+  - vendor

@@ -1,7 +1,6 @@
 #custom filters for Octopress
 require_relative 'backtick_code_block'
 require 'octopress-hooks'
-require 'jekyll-sitemap'
 require 'octopress-date-format'
 require_relative 'raw'
 
