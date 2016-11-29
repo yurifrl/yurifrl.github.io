@@ -24,4 +24,5 @@ http://github.com/yurifrl/yurifrl.github.io would be appreciated, but is not req
 
 
 ## This is a fork
-this is a fork from [Getmicah Blog](https://github.com/getmicah/blog)
+this is a mix from [Getmicah Blog](https://github.com/getmicah/blog)
+and [Tom Preston-Werner](https://github.com/mojombo/mojombo.github.io)
