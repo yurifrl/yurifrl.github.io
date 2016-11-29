@@ -12,9 +12,14 @@ sass:
   sass_dir: _sass
 
 # Markdown
-markdown: kramdown
-highlighter: rouge
+# markdown: kramdown
+# highlighter: rouge
+highlighter: pygments
 
+# kramdown:
+#   input: GFM
+#   hard_wrap: false
+#   syntax_highlighter: rouge
 
 # File management
 include: [".htaccess"]

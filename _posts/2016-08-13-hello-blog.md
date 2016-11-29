@@ -15,3 +15,36 @@ body {
 ``` html
 <a href="#">Hello world</a>
 ```
+
+
+{% highlight ruby %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+
+{% highlight python %}
+import urllib2
+[...]
+{% endhighlight %}
+
+
+```python
+import urllib2
+[...]
+```
+~~~python
+import urllib2
+[...]
+~~~
+
+		import urllib2
+		[...]
+
+
+
+{% highlight ruby linenos %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}

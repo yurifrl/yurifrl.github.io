@@ -47,6 +47,7 @@ ul {
   }
 }
 
+
 .wrapper {
   max-width: 600px;
   margin: auto;
@@ -194,6 +195,18 @@ ul {
       font-size: 0.9em;
       border-radius: 3px;
       background: $color-grey;
+    }
+    .highlight {
+      margin: 10px;
+      margin-bottom: 15px;
+      padding: 10px;
+      line-height: 1.5;
+      border-radius: 3px;
+      background: $color-black;
+      code {
+        color: $color-code;
+        background: none;
+      }
     }
     .codebreak {
       margin: 15px;
