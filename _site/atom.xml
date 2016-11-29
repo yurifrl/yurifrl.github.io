@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog]]></title>
   <link href="yurifrl.com/atom.xml" rel="self"/>
   <link href="yurifrl.com/"/>
-  <updated>2016-11-29T18:10:13+00:00</updated>
+  <updated>2016-11-29T18:18:13+00:00</updated>
   <id>yurifrl.com/</id>
   <author>
     <name><![CDATA[Yuri Freire Lima]]></name>
@@ -12,15 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Hello Blog 2]]></title>
-    <link href="yurifrl.com/blog/2016/11/29/hello-blog-2/"/>
-    <updated>2016-11-29T18:06:16+00:00</updated>
-    <id>yurifrl.com/blog/2016/11/29/hello-blog-2</id>
-    <content type="html"><![CDATA[<h1 id="hello-blog-2">Hello Blog 2</h1>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Hello Blog]]></title>
@@ -31,7 +22,8 @@
 
 <p class="meta">3 Nov 2008 - San Francisco</p>
 
-<p>Over the last few months I’ve seen a number of people looking for cofounders on
+<p>Hello from my amazing jekyll octopress blog
+Over the last few months I’ve seen a number of people looking for cofounders on
 Hacker News or via their own personal blogs. I think this is, at best, a highly
 inefficient way to find a cofounder and, at worst, a way to fool yourself into
 finding the <em>wrong</em> cofounder. In any case, it’s a naive approach to finding the

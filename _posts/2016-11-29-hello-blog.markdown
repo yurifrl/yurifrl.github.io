@@ -9,6 +9,7 @@ date: 2016-11-29T18:06:16+00:00
 
 <p class="meta">3 Nov 2008 - San Francisco</p>
 
+Hello from my amazing jekyll octopress blog
 Over the last few months I've seen a number of people looking for cofounders on
 Hacker News or via their own personal blogs. I think this is, at best, a highly
 inefficient way to find a cofounder and, at worst, a way to fool yourself into

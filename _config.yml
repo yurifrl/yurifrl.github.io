@@ -11,14 +11,12 @@ simple_search: https://www.google.com/search
 date_format: "ordinal"
 
 root: /
-permalink: /blog/:year/:month/:day/:title/
-
+permalink: /blog/:title/
 
 plugins: _plugins
 sass_dir: _sass
 code_dir: downloads/code
 category_dir: blog/categories
-
 
 highlighter: rouge
 paginate_path: "posts/:num"
@@ -39,14 +37,14 @@ default_asides:
 # post_asides:
 # page_asides:
 
-github_user:
-github_repo_count: 0
+github_user: yurifrl
+github_repo_count: 5
 github_skip_forks: true
 github_show_profile_link: true
 disqus_show_comment_count: false
 twitter_tweet_button: true
 disqus_short_name:
-twitter_user:
+twitter_user: yurifrl
 
 gems:
   - jekyll-sitemap
