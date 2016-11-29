@@ -2,7 +2,7 @@ version: '2'
 services:
   web:
     image: jekyll/jekyll:pages
-    command: jekyll serve --watch --incremental
+    command: jekyll serve --watch
     ports:
       - 4000:4000
     volumes:

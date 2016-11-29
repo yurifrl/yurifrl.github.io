@@ -1,10 +1,10 @@
 # Blog settings
-permalink: /blog/:title
+permalink: /:title
 
 # My variables
 name: Yuri Freire Lima
-description: Futuristic web design
-google_verification: null
+description: software architect
+google_verification: google3efd61b6b9deca0b.html
 
 # Sass
 sass:

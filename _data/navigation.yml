@@ -1,8 +1,12 @@
 - title: about
-  url: /me
+  url: /about
 
 - title: github
-  url: https://github.com/getmicah
+  url: https://github.com/yurifrl
 
 - title: twitter
-  url: https://twitter.com/getmicah
+  url: https://twitter.com/yurifrl
+
+- title: curriculum
+  url: /curriculum
+
