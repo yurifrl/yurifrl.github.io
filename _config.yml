@@ -1,0 +1,27 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink: /:title
+# permalink: pretty
+# relative_permalinks: true
+
+# Setup
+title: Yuri's Blog
+tagline: "Yuris blog"
+description: 'My blog'
+url: yurifrl.com
+baseurl: ''
+paginate: 5
+
+# About/contact
+author:
+  name: Yuri Freire lima
+  url:  https://twitter.com/yurifrl
+  email: yurifrl@outlook.com
+
+# Custom vars
+version: 1.0.0
+
+gems:
+  - jekyll-paginate
+  # - relative_permalinks
