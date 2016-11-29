@@ -43,7 +43,7 @@ import urllib2
 
 
 
-{% highlight ruby linenos %}
+{% highlight ruby %}
 def foo
   puts 'foo'
 end

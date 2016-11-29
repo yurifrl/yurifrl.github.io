@@ -12,14 +12,20 @@ sass:
   sass_dir: _sass
 
 # Markdown
-# markdown: kramdown
-# highlighter: rouge
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
 
-# kramdown:
-#   input: GFM
-#   hard_wrap: false
-#   syntax_highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
 
 # File management
 include: [".htaccess"]
@@ -37,3 +43,6 @@ exclude:
 
 post_layout: post
 page_layout: default
+
+gems:
+  - rouge
