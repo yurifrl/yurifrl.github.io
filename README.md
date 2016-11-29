@@ -20,7 +20,7 @@ You may not reuse anything therein without my permission:
 
 All other directories and files are MIT Licensed. Feel free to use the HTML and
 CSS as you please. If you do use them, a link back to
-http://github.com/mojombo/jekyll would be appreciated, but is not required.
+http://github.com/yurifrl/yurifrl.github.io would be appreciated, but is not required.
 
 
 ## This is a fork
