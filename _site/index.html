@@ -9,8 +9,8 @@
   <meta name="author" content="Yuri Freire Lima">
 
   
-  <meta name="description" content="Hello Blog 3 Nov 2008 - San Francisco Hello from my amazing jekyll octopress blog
-Over the last few months I’ve seen a number of people looking for &hellip;">
+  <meta name="description" content="Hello Blog Hello from my amazing jekyll octopress blog
+">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -59,6 +59,7 @@ Over the last few months I’ve seen a number of people looking for &hellip;">
 <ul class="main-navigation">
   <li><a href="/">Blog</a></li>
   <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/curriculum">Curriculum</a></li>
 </ul>
 
 </nav>
@@ -72,7 +73,7 @@ Over the last few months I’ve seen a number of people looking for &hellip;">
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2016/11/29/hello-blog/">Hello Blog</a></h1>
+      <h1 class="entry-title"><a href="/blog/hello-blog">Hello Blog</a></h1>
     
     
       <p class="meta">
@@ -90,16 +91,7 @@ Over the last few months I’ve seen a number of people looking for &hellip;">
 
   <div class="entry-content"><h1 id="hello-blog">Hello Blog</h1>
 
-<p class="meta">3 Nov 2008 - San Francisco</p>
-
-<p>Hello from my amazing jekyll octopress blog
-Over the last few months I’ve seen a number of people looking for cofounders on
-Hacker News or via their own personal blogs. I think this is, at best, a highly
-inefficient way to find a cofounder and, at worst, a way to fool yourself into
-finding the <em>wrong</em> cofounder. In any case, it’s a naive approach to finding the
-person that will need to stand by your side in the coming storm that we call
-“running a startup.”</p>
-
+<p>Hello from my amazing jekyll octopress blog</p>
 </div>
   
   
@@ -120,10 +112,39 @@ person that will need to stand by your side in the coming storm that we call
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2016/11/29/hello-blog/">Hello Blog</a>
+        <a href="/blog/hello-blog">Hello Blog</a>
       </li>
     
   </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/yurifrl">@yurifrl</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'yurifrl',
+            count: 5,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 

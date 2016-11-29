@@ -11,7 +11,7 @@ simple_search: https://www.google.com/search
 date_format: "ordinal"
 
 root: /
-permalink: /blog/:title/
+permalink: /blog/:title
 
 plugins: _plugins
 sass_dir: _sass
