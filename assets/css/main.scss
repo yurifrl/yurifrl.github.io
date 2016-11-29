@@ -204,7 +204,7 @@ ul {
       border-radius: 3px;
       background: $color-grey;
       code {
-        color: $color-code;
+        // color: $color-code;
         background: none;
       }
     }
@@ -238,4 +238,4 @@ ul {
     }
   }
 }
-@import "syntax";
+// @import "syntax";

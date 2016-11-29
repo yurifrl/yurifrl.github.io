@@ -38,8 +38,8 @@ import urllib2
 [...]
 ~~~
 
-		import urllib2
-		[...]
+    import urllib2
+    [...]
 
 
 
@@ -48,3 +48,8 @@ def foo
   puts 'foo'
 end
 {% endhighlight %}
+
+{% highlight bash %}
+cd ~
+{% endhighlight %}
+
