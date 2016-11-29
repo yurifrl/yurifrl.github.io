@@ -7,3 +7,12 @@ services:
       - 4000:4000
     volumes:
       - .:/srv/jekyll
+      - deploy:/srv/jekyll/deploy
+      - sass-cache:/srv/jekyll/.sass-cache
+
+volumes:
+  deploy:
+    external: true
+  sass-cache:
+    external: true
+
