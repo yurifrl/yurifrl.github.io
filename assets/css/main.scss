@@ -197,14 +197,13 @@ ul {
       background: $color-grey;
     }
     .highlight {
-      margin: 10px;
+      // margin: 10px;
       margin-bottom: 15px;
       padding: 10px;
       line-height: 1.5;
       border-radius: 3px;
       background: $color-grey;
       code {
-        // color: $color-code;
         background: none;
       }
     }
