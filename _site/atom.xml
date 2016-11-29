@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Yuri's Blog Title]]></title>
+  <link href="yurifrl.com/atom.xml" rel="self"/>
+  <link href="yurifrl.com/"/>
+  <updated>2016-11-29T16:59:32+00:00</updated>
+  <id>yurifrl.com/</id>
+  <author>
+    <name><![CDATA[Yuri Freire Lima]]></name>
+    <email><![CDATA[yurifrl@outlook.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>

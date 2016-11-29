@@ -1,0 +1,52 @@
+subtitle: Yuri's Blog
+description: Yuri's Blog
+url: yurifrl.com
+
+title: Yuri's Blog Title
+author: Yuri Freire Lima
+email: yurifrl@outlook.com
+
+subscribe_rss: /atom.xml
+simple_search: https://www.google.com/search
+date_format: "ordinal"
+
+root: /
+permalink: /blog/:year/:month/:day/:title/
+
+
+plugins: _plugins
+sass_dir: _sass
+code_dir: downloads/code
+category_dir: blog/categories
+
+
+highlighter: rouge
+paginate_path: "posts/:num"
+excerpt_link: "Read on &rarr;"
+excerpt_separator: "<!--more-->"
+recent_posts: 5
+paginate: 10
+titlecase: true
+
+default_asides:
+  - asides/recent_posts.html
+  - asides/github.html
+  - asides/delicious.html
+  - asides/pinboard.html
+  - asides/googleplus.html
+
+# blog_index_asides:
+# post_asides:
+# page_asides:
+
+github_user:
+github_repo_count: 0
+github_skip_forks: true
+github_show_profile_link: true
+disqus_show_comment_count: false
+twitter_tweet_button: true
+disqus_short_name:
+twitter_user:
+
+gems:
+  - jekyll-sitemap
