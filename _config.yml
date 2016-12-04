@@ -1,7 +1,7 @@
 # Blog settings
 permalink: /:title
 
-# My variables
+# My variables, this will go to `site` variable
 name: Yuri Freire Lima
 description: software architect
 google_verification: google3efd61b6b9deca0b.html
@@ -14,15 +14,11 @@ sass:
 # File management
 include: [".htaccess"]
 exclude:
-  - bin
-  - config.rb
-  - Gemfile
-  - Gemfile.lock
-  - gems
-  - Procfile
-  - Rakefile
   - README.md
-  - script
+  - TODO.md
+  - work.log
+  - LICENSE
+  - docker-compose.yml
 
 post_layout: post
 page_layout: default
