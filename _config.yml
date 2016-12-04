@@ -16,7 +16,7 @@ include: [".htaccess"]
 exclude:
   - README.md
   - TODO.md
-  - work.log
+  - work-log.md
   - LICENSE
   - docker-compose.yml
 
