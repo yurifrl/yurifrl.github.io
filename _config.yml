@@ -23,7 +23,6 @@ exclude:
   - Rakefile
   - README.md
   - script
-  - vendor
 
 post_layout: post
 page_layout: default
