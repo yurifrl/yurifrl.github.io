@@ -8,7 +8,7 @@
 /* Borders and Spacing */
 body {
   /* display: none; */
-  font-family: Source Sans Pro, Open Sans, Helvetica, Arial, sans-serif;
+  font-family: 'Inconsolata', ;
   background-color: #1F1F1F;
   font-weight: 300;
 }
@@ -64,7 +64,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: Open Sans, Source Sans Pro, Helvetica, Arial, sans-serif;
+  font-family: 'Inconsolata', ;
   font-weight: 400;
   color: #000;
   line-height: 100%;
@@ -74,7 +74,7 @@ h1 {
   line-height: 50px;
   padding-top: 30px;
   font-weight: 700;
-  font-family: Open Sans;
+  font-family: 'Inconsolata', ;
   text-align: center;
   letter-spacing: 1px;
 }

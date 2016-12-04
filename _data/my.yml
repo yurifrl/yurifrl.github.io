@@ -1,0 +1,49 @@
+age: 23
+email: freireyuri@outlook.com
+github: https://github.com/yurifrl
+twitter: https://twitter.com/yurifrl
+linkedin: https://www.linkedin.com/in/yurifrl
+blog:
+  name: Blog
+  link: /
+professional_goal: Ruby, Node, Elixir Developer
+qualifications_left:
+  - Ruby
+  - Javascript
+  - Vue.js
+  - Node
+  - Google Cloud
+  - Kubernetes
+  - Docker
+  - Deploy Rails & Node Apps
+  - Amazon SQS
+  - Amazon S3
+  - Amazon AWS
+  - Amazon EC2
+  - Spree Commerce
+  - Scrum
+  - Agile
+  - GIT
+  - SEO
+  - English
+  - VIM
+qualifications_rigth:
+  - Rails
+  - Elixir
+  - Ember
+  - React
+  - Google Container Engine
+  - Heroku
+  - Container orchestration via kubernetes
+  - API
+  - HTML5
+  - Ember
+  - Twitter Bootstrap
+  - SQL
+  - ElastiSearch
+  - Redis
+  - Postgres
+  - Nginx
+  - SysAdmin
+  - Linux
+  - GitHub
