@@ -20,7 +20,7 @@ description: TODO description
 - [Professor Frisby's Mostly Adequate Guide to Functional Programming](#anchor-09)
 
 # [Refactoring Towards Functional Programming in JavaScript](http://rebootjeff.github.io/blog/2015/06/14/refactoring-towards-functional-programming-in-javascript/)
-<hr id="#anchor-01">
+<a id="#anchor-01"></a>
 
 Jeff Lee's introduction sugests to start with functional programing whiout the
 "Hard" stuff, he sugests to cutting down on anonymous functions,
@@ -28,7 +28,7 @@ subdivide functions into tiny functions, and using the simples functional
 programing concepts, such as curry and composition.
 
 Then He sugests some Code smells, like:
-- Anonymous callbacks
+- Anonymous callbacks:
     I belive he's point is that is hard to compose callbacks, they don't feet
     well with compositions, i try to swap callbacks for promises, because i
     fell that promises are more composable
@@ -45,26 +45,26 @@ Then He sugests some Code smells, like:
 - Side-effects from functions
 
 # [Data denormalization is broken](https://hackernoon.com/data-denormalization-is-broken-7b697352f405)
-<hr id="#anchor-02">
+<a id="#anchor-02"></a>
 
 # [Learning The Clean Architecture and Applying it While Doing BDD](http://code-zest.blogspot.com.br/2015/09/learning-clean-architecture-and.html)
-<hr id="#anchor-03">
+<a id="#anchor-03"></a>
 
 # [Hexagonal architecture](http://alistair.cockburn.us/Hexagonal+architecture)
-<hr id="#anchor-04">
+<a id="#anchor-04"></a>
 
 # [Clean JavaScript: Using use-case interactors](https://medium.com/@dtinth/clean-javascript-using-use-case-interactors-f3a50c138154#.7bi4wdnf0)
-<hr id="#anchor-05">
+<a id="#anchor-05"></a>
 
 # [Greg Young - CQRS and Event Sourcing - Code on the Beach 2014](https://www.youtube.com/watch?v=JHGkaShoyNs)
-<hr id="#anchor-06">
+<a id="#anchor-06"></a>
 
 # [Domain-Drive Design](http://www.infoq.com/resource/minibooks/domain-driven-design-quickly/en/pdf/DomainDrivenDesignQuicklyOnline.pdf)
-<hr id="#anchor-07">
+<a id="#anchor-07"></a>
 
 # [Redis in Action](https://redislabs.com/ebook/redis-in-action/foreword)
-<hr id="#anchor-08">
+<a id="#anchor-08"></a>
 
 # [Professor Frisby's Mostly Adequate Guide to Functional Programming](https://drboolean.gitbooks.io/mostly-adequate-guide/content/)
-<hr id="#anchor-09">
+<a id="#anchor-09"></a>
 
