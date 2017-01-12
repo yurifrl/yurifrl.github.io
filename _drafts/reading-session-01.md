@@ -11,8 +11,10 @@ description: TODO description
 - [Learning The Clean Architecture and Applying it While Doing BDD](#anchor-04)
 - [Hexagonal architecture](#anchor-05)
 - [Clean JavaScript: Using use-case interactors](#anchor-06)
+
 ## Videos
 - [Greg Young - CQRS and Event Sourcing - Code on the Beach 2014](#anchor-07)
+
 ## Books
 - [Domain-Drive Design](#anchor-08)
 - [Redis in Action](#anchor-09)
