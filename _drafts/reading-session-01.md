@@ -18,7 +18,8 @@ description: TODO description
 ## Books
 - [Domain-Drive Design](#anchor-08)
 - [Redis in Action](#anchor-09)
-- [Professor Frisby's Mostly Adequate Guide to Functional Programming](#anchor-10)
+- [Functional JavaScript Mini Book](#anchor-10)
+- [Professor Frisby's Mostly Adequate Guide to Functional Programming](#anchor-11)
 
 
 # [Monads for the Curious Programmer, Part 1](https://bartoszmilewski.com/2011/01/09/monads-for-the-curious-programmer-part-1/)<a id="anchor-01"></a>
@@ -62,5 +63,7 @@ Then He sugests some Code smells, like:
 
 # [Redis in Action](https://redislabs.com/ebook/redis-in-action/foreword)<a id="anchor-09"></a>
 
-# [Professor Frisby's Mostly Adequate Guide to Functional Programming](https://drboolean.gitbooks.io/mostly-adequate-guide/content/)<a id="anchor-10"></a>
+# [Functional JavaScript Mini Book](https://jcouyang.gitbooks.io/functional-javascript/content/en/lambda/index.html)<a id="anchor-10"></a>
+
+# [Professor Frisby's Mostly Adequate Guide to Functional Programming](https://drboolean.gitbooks.io/mostly-adequate-guide/content/)<a id="anchor-11"></a>
 
