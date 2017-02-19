@@ -1,0 +1,29 @@
+.resume {
+  .title {
+    font-size: 1.6em;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .content-section {
+    margin: 0 0 3rem;
+
+    .header {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .contact {
+    @extend .content-section
+  }
+
+  .excerpt {
+    @extend .content-section
+  }
+
+  .abstract {
+    @extend .content-section
+  }
+
+}
