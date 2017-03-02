@@ -27,5 +27,7 @@ http://github.com/yurifrl/yurifrl.github.io would be appreciated, but is not req
 this is a mix from [Getmicah Blog](https://github.com/getmicah/blog)
 and [Tom Preston-Werner](https://github.com/mojombo/mojombo.github.io)
 
+examples to follow https://github.com/jglovier/resume-template
+
 ## Markdown
 [Kramdown](http://kramdown.gettalong.org/syntax.html)
