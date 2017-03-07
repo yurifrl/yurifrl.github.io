@@ -18,7 +18,7 @@ p {
   font-size: 1em;
   line-height: 150%;
 }
-a {
+a, button {
   color: $color-link;
   text-decoration: none;
   &:visited {
@@ -36,6 +36,7 @@ a {
     text-decoration: none;
   }
 }
+
 ul {
   list-style: none;
   li {
@@ -56,8 +57,11 @@ ul {
   @media screen and (max-width: $br) {
     padding: 20px;
   }
+  @media print {
+    margin-top: 0px;
+    padding: 0px 0px 0px 0px;
+  }
 }
-
 
 .header {
   display: flex;

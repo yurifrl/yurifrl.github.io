@@ -5,6 +5,10 @@
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
+
+    @media print {
+      margin-top: 0px;
+    }
   }
 
   .sub-title {
@@ -12,10 +16,17 @@
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 20px;
+
+    @media print {
+      margin: 1em 0 1em;
+    }
   }
 
   .content-section {
-    margin: 0 0 3rem;
+    margin: 0 0 2rem;
+    @media print {
+      margin: 0 0 1rem;
+    }
   }
 
   .highlight {
@@ -38,9 +49,22 @@
     }
   }
 
+  .last-node {
+    @media print {
+      margin: 0 0 0rem;
+    }
+  }
+
   @media print {
+    margin-top: 0px;
+    padding: 0px 0px 0px 0px;
+
     .no-print, .no-print * {
       display: none !important;
+    }
+
+    p {
+      line-height: 100%;
     }
   }
 }
