@@ -3,47 +3,75 @@ email: freireyuri@outlook.com
 github: https://github.com/yurifrl
 twitter: https://twitter.com/yurifrl
 linkedin: https://www.linkedin.com/in/yurifrl
-blog:
-  name: Blog
-  link: /
-professional_goal: Ruby, Node, Elixir Developer
-qualifications_left:
-  - Ruby
-  - Javascript
-  - Vue.js
-  - Node
-  - Google Cloud
-  - Kubernetes
-  - Docker
-  - Deploy Rails & Node Apps
-  - Amazon SQS
-  - Amazon S3
-  - Amazon AWS
-  - Amazon EC2
-  - Spree Commerce
-  - Scrum
-  - Agile
-  - GIT
-  - SEO
-  - English
-  - VIM
-qualifications_rigth:
-  - Rails
-  - Elixir
-  - Ember
-  - React
-  - Google Container Engine
-  - Heroku
-  - Container orchestration via kubernetes
-  - API
-  - HTML5
-  - Ember
-  - Twitter Bootstrap
-  - SQL
-  - ElastiSearch
-  - Redis
-  - Postgres
-  - Nginx
-  - SysAdmin
-  - Linux
-  - GitHub
+
+role: Software Engineer
+city: São Paulo, Brazil
+
+sections:
+  - title: DDD, Functional developer | Distributed Systems | Agile Methodologies
+    class: center
+  - content: Detail-oriented programmer and Software Architect with 4+ years’ success devising innovative
+      and tailored solutions to meet ever-changing business requirements within diverse industries.
+      Advanced skill with leading-edge programming tools complemented by proven ability
+      to assimilate and rapidly utilize emerging technologies. Solid mathematical
+      knowledge with experience developing comprehensive algorithms and data-processing
+      logic. Technical proficiencies include…
+    lists:
+      - items:
+          - title: Innovative software engineer offering
+            content: four years of experience in the full software
+              development lifecycle – from concept through delivery of next-generation applications
+              and customizable solutions.
+          - title: Expert in advanced development methodologies
+            content: microservices, container orchestration tools and using TDD and DDD
+              contributing to the design and rollout of cutting-edge software applications.
+          - title: Known for excellent troubleshooting skill
+            content: able to analyze code and engineer well-researched, cost-effective and responsive solutions.
+  - title: Technical Tools
+    list_items:
+      - API
+      - Agile Methods
+      - Container orchestration
+      - Docker
+      - ElasticSearch
+      - Elixir
+      - Ember
+      - GIT
+      - Google Cloud
+      - Heroku
+      - JavaScript
+      - Kafka
+      - Kubernetes
+      - Linux
+      - Microservices Deploy
+      - Nginx
+      - NoSql Databases
+      - Node.js
+      - SQL
+      - Postgres
+      - NoSQL
+      - Redis
+      - Rethink
+      - React
+      - Ruby
+      - Vue.js
+  - title: Professional Experience
+    lists:
+      - title: Software Engineer
+        content: 1/14 to 2/17 - Yebo, API E-Commerce
+        items:
+          - content: "Developing and maintaining large-scale E-Commerce platform using technologies
+              such as: Ruby, Amazon SQS, Kubernetes, Redis, Docker, Docker Compose,
+              Continuous integration, Elasticsearch, PostgreSQL and others."
+          - content: "Developing E-Commerce API to follow the newest API conventions and standards,
+              with Grape, Rails, AMS, and  JWT as authentication and JSON as the notation language."
+          - content: "Creating an maitaining Javascript SDK for the E-Commerce API and using this
+              SDK in EmberJS applications."
+          - content: "E-Commerce platform SysAdmin, deploying containers to production,
+              Redis for caching, SQS for asynchronous jobs, Nginx for Web Hosting."
+          - content: "Developing E-Commerces using Restful API, javascript with EmberJS."
+  - title: Education
+    lists:
+      - title: São Paulo State Technological College
+        content: Technologist in Analysis and Development Systems, 1/11 to Present
+

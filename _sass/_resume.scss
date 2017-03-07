@@ -24,35 +24,26 @@
 
   .content-section {
     margin: 0 0 2rem;
-    @media print {
-      margin: 0 0 1rem;
-    }
+    @media print { margin: 0 0 1rem; }
+
+    li { display: inline-block; }
+  }
+
+  .content-section-data {
+    margin-left: 1em;
   }
 
   .highlight {
     font-weight: bold;
   }
 
-  .contact {
-    @extend .content-section;
+  .center {
     text-align: center;
   }
 
-  .excerpt {
-    @extend .content-section
-  }
-
-  .abstract {
+  .contact {
     @extend .content-section;
-    li {
-      display: inline-block;
-    }
-  }
-
-  .last-node {
-    @media print {
-      margin: 0 0 0rem;
-    }
+    text-align: center;
   }
 
   @media print {

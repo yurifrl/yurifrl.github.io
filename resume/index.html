@@ -8,90 +8,36 @@ layout: default
   <h1 class="title">Yuri F. Lima</h1>
 
   <section class="contact">
-    <p>Software Engineer</p>
-    <p>São Paulo, Brazil</p>
+    <p>{{ site.data.my.role }}</p>
+    <p>{{ site.data.my.city }}</p>
     <a href="mailto:yurifreirelima@outlook.com?Subject=Contact" target="_top">yurifreirelima@outlook.com</a>
   </section>
 
-  <section class="excerpt highlight">
-    DDD, Functional developer | Distributed Systems | Scrum & Agile Methodologies
-  </section>
+  {% for section in site.data.my.sections %}
+    <section class="content-section {{ section.class }}">
+      <header class="sub-title">{{ section.title }}</header>
+      <p>{{ section.content }}</p>
 
-  <section class="abstract">
-    <p>
-    Detail-oriented programmer and Software Architect with 4+ years’ success devising innovative
-    and tailored solutions to meet ever-changing business requirements within diverse industries.
-    Advanced skill with leading-edge programming tools complemented by proven ability
-    to assimilate and rapidly utilize emerging technologies. Solid mathematical
-    knowledge with experience developing comprehensive algorithms and data-processing
-    logic. Technical proficiencies include…
-    </p>
+      <section class="content-section-data">
+        {% for list in section.lists %}
+          <h3>{% if list.title %}<span class="highlight">{{ list.title}},</span>{% endif %}{{ list.content }}</h3>
+          {% for item in list.items %}
+            <ul>
+              <li>
+                {% if item.title %}<span class="highlight">- {{item.title}},</span>{% endif %} {{item.content}}
+              </li>
+            </ul>
+          {% endfor %}
+        {% endfor %}
 
-    <ul>
-      <li>
-        <span class="highlight">- Innovative software engineer offering,</span>
-        four years of experience in the full software
-        development lifecycle – from concept through delivery of next-generation applications
-        and customizable solutions.
-      </li>
-      <li>
-        <span class="highlight">- Expert in advanced development methodologies,</span>
-        microservices, container orchestration tools and using TDD and DDD contributing
-        to the design and rollout of cutting-edge software applications.
-      </li>
-      <li>
-        <span class="highlight">- Known for excellent troubleshooting skill,</span>
-        able to analyze code and engineer
-        well-researched, cost-effective and responsive solutions.
-      </li>
-    </ul>
-  </section>
-
-  <section class="content-section">
-    <header class="sub-title">Technical Tools</header>
-
-    <p>
-    API, Agile Methods, Container orchestration, Docker, ElasticSearch, Elixir,
-    Ember, GIT, Google Cloud, Heroku, JavaScript, Kafka, Kubernetes, Linux,
-    Microservices Deploy, Nginx, NoSql Databases, Node.js, SQL, Postgres,
-    NoSQL, Redis, Rethink, React, Ruby,Vue.js
-    </p>
-  </section>
-
-  <section class="content-section">
-    <header class="sub-title">Professional Experience</header>
-
-    <h3><span class="highlight">Software Engineer</span>, 1/14 to 2/17 - Yebo, API E-Commerce</h3>
-
-    <ul>
-      <li>
-        Developing and maintaining large-scale E-Commerce platform using technologies
-        such as: Ruby, Amazon SQS, Kubernetes, Redis, Docker, Docker Compose,
-        Continuous integration, Elasticsearch, PostgreSQL and others.
-      </li>
-      <li>
-        Developing E-Commerce API to follow the newest API conventions and standards,
-        with Grape, Rails, AMS, and  JWT as authentication and JSON as the notation language.
-      </li>
-      <li>
-        Creating an maitaining Javascript SDK for the E-Commerce API and using this
-        SDK in EmberJS applications.
-      </li>
-      <li>
-        E-Commerce platform SysAdmin, deploying containers to production,
-        Redis for caching, SQS for asynchronous jobs, Nginx for Web Hosting.
-      </li>
-      <li>
-        Developing E-Commerces using Restful API, javascript with EmberJS.
-      </li>
-    </ul>
-  </section>
-
-  <section class="content-section last-node">
-    <header class="sub-title">Education</header>
-    <p><span class="highlight">São Paulo State Technological College</span></p>
-    <p>Technologist in Analysis and Development Systems, 1/11 to Present</p>
-  </section>
+        <p>
+          {% for item in section.list_items %}
+            {{item}}{% if forloop.last != true %},{% endif %}
+          {% endfor %}
+        </p>
+      </section>
+    </section>
+  {% endfor %}
 
   <footer class="no-print">
     <button onclick="window.print()">PDF</button>
