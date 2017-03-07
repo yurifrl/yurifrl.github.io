@@ -46,12 +46,20 @@
     text-align: center;
   }
 
+  .print-only {
+    display: none;
+  }
+
   @media print {
     margin-top: 0px;
     padding: 0px 0px 0px 0px;
 
-    .no-print, .no-print * {
-      display: none !important;
+    .no-print {
+      display: none;
+    }
+
+    .print-only {
+      display: block;
     }
 
     p {
