@@ -4,7 +4,7 @@ title: Hello Blog
 ---
 
 
-Hy, im so happy to be here
+Hy, im so happy to be here, this is a test
 
 {% highlight css %}
 body {
