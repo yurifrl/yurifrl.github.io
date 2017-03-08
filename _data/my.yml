@@ -30,6 +30,7 @@ sections:
       - ElasticSearch
       - Elixir
       - Ember
+      - Event Sourcing
       - GIT
       - Google Cloud
       - Heroku
