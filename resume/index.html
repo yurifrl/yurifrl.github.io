@@ -22,15 +22,14 @@ title: résumé
       <section class="content-section-data">
         {% for list in section.lists %}
           <h3>{% if list.title %}<span class="highlight">{{ list.title}},</span>{% endif %}{{ list.content }}</h3>
-          {% for item in list.items %}
-            <ul>
+            <ul class="item">
+              {% for item in list.items %}
               <li>
                 {% if item.title %}<span class="highlight">- {{item.title}},</span>{% endif %} {{item.content}}
               </li>
+              {% endfor %}
             </ul>
-          {% endfor %}
-        {% endfor %}
-
+            {% endfor %}
         <p>
           {% for item in section.list_items %}
             {{item}}{% if forloop.last != true %},{% endif %}

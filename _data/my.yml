@@ -4,16 +4,16 @@ city: São Paulo, Brazil
 sections:
   - title: DDD, Functional developer | Distributed Systems | Scrum Agile Methodologies
     class: center
-  - content: Detail-oriented programmer and Software Architect with 4+ years’ success devising innovative
+  - content: Detail-oriented programmer and Software Architect with 6+ years’ success devising innovative
       and tailored solutions to meet ever-changing business requirements within diverse industries.
       Advanced skill with leading-edge programming tools complemented by proven ability
       to assimilate and rapidly utilize emerging technologies. Solid mathematical
       knowledge with experience developing comprehensive algorithms and data-processing
-      logic. Technical proficiencies include…
+      logic. Technical proficiencies include...
     lists:
       - items:
           - title: Innovative software engineer offering
-            content: four years of experience in the full software
+            content: six years of experience in the full software
               development lifecycle – from concept through delivery of next-generation applications
               and customizable solutions.
           - title: Expert in advanced development methodologies
@@ -43,15 +43,30 @@ sections:
       - NoSql Databases
       - Node.js
       - SQL
-      - Postgres
       - NoSQL
+      - Haskell
       - Redis
       - Rethink
       - React
       - Ruby
       - Vue.js
+      - Prometheus
+      - Istio
+      - Go
   - title: Professional Experience
     lists:
+      - title: Software Engineer
+        content: 3/17 to now - Totvs
+        items:
+          - content: "Working to provision legacy software that was not created for cloud to run in a stack, using containers and orchestrating with kubernetes."
+          - content: "Engineered and Developed the new application to manage infrastructure, managing helm and transforme executions "
+          - content: "Developed a Graphql api used internally to request new instances of the legacy code"
+          - content: "Developed a execution engine to manage internal executions using ruby"
+          - content: "Developed an application to make previously single thread software to run concurrently in multiples pods using Go and redis"
+          - content: "Using drone to deploy ci to publish charts and images, and rancher to deploy applications on kubernetes, writhing kubernetes specs with helm"
+          - content: "Using Prometheus for system monitoring"
+          - content: "Used faas and aws lambda to run low cost and quick to assemble services"
+          - content: "Using flux architecture to manage state on an angular application See less"
       - title: Software Engineer
         content: 1/14 to 2/17 - Yebo, API E-Commerce
         items:
@@ -65,6 +80,8 @@ sections:
           - content: "E-Commerce platform SysAdmin, deploying containers to production,
               Redis for caching, SQS for asynchronous jobs, Nginx for Web Hosting."
           - content: "Developing E-Commerces using Restful API, javascript with EmberJS."
+          - content: "Managing kubernetes cluster on google cloud."
+          - content: "Deploying application using drone ci"
   - title: Education
     lists:
       - title: São Paulo State Technological College

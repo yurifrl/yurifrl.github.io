@@ -46,6 +46,10 @@
     text-align: center;
   }
 
+  .item {
+    @extend .content-section;
+  }
+
   .print-only {
     display: none;
   }
