@@ -82,7 +82,3 @@ sections:
           - content: "Developing E-Commerces using Restful API, javascript with EmberJS."
           - content: "Managing kubernetes cluster on google cloud."
           - content: "Deploying application using drone ci"
-  - title: Education
-    lists:
-      - title: São Paulo State Technological College
-        content: Technologist in Analysis and Development Systems, 1/11 to Present
