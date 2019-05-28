@@ -58,7 +58,7 @@ sections:
       - title: Software Engineer
         content: 3/17 to now - Totvs
         items:
-          - content: "Working to provision legacy software that was not created for cloud to run in a stack, using containers and orchestrating with kubernetes."
+          - content: "Working to provision legacy software on cloud, using containers and orchestrating with kubernetes."
           - content: "Engineered and Developed the new application to manage infrastructure, managing helm and transforme executions "
           - content: "Developed a Graphql api used internally to request new instances of the legacy code"
           - content: "Developed a execution engine to manage internal executions using ruby"
@@ -66,7 +66,7 @@ sections:
           - content: "Using drone to deploy ci to publish charts and images, and rancher to deploy applications on kubernetes, writhing kubernetes specs with helm"
           - content: "Using Prometheus for system monitoring"
           - content: "Used faas and aws lambda to run low cost and quick to assemble services"
-          - content: "Using flux architecture to manage state on an angular application See less"
+          - content: "Using flux architecture to manage state on an angular application"
       - title: Software Engineer
         content: 1/14 to 2/17 - Yebo, API E-Commerce
         items:
@@ -86,4 +86,3 @@ sections:
     lists:
       - title: São Paulo State Technological College
         content: Technologist in Analysis and Development Systems, 1/11 to Present
-
