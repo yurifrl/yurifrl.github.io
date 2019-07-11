@@ -11,8 +11,8 @@ wipefs -a $DISK
 sgdisk -og $DISK
 
 sgdisk -n 1:2048:1026047 -c 1:"BIOS Boot Partition" -t 1:ef02 $DISK
-sgdisk -n 2:1026048:2047998 -c 2:"Linux /boot" -t 2:8300 $DISK
-sgdisk -n 3:2047998:$(sgdisk -E $DISK) -c 3:LVM -t 3:8e00 $DISK
+sgdisk -n 2:1026048:4091898 -c 2:"Linux /boot" -t 2:8300 $DISK
+sgdisk -n 3:4091899:$(sgdisk -E $DISK) -c 3:LVM -t 3:8e00 $DISK
 LVM_DISK=/dev/sda3
 
 # PRINT
