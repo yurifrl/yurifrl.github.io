@@ -15,8 +15,8 @@ function keep_going() {
 function setup_legacy() {
     echo "Format, Bios 500Mb ef02, Boot 1G 8300, LVM ??? 8300"
     sgdisk -n 1:2048:1026047 -c 1:"BIOS Boot Partition" -t 1:ef02 $DISK
+    sgdisk -n 3:1026048:4091898 -c 3:"Linux /boot" -t 3:8300 $DISK
     sgdisk -n 2:4091899:$(sgdisk -E $DISK) -c 2:LVM -t 2:8e00 $DISK
-    sgdisk -n e:1026048:4091898 -c 3:"Linux /boot" -t e:8300 $DISK
 
     echo "Print disk creation."
     sgdisk -p $DISK
