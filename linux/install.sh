@@ -103,6 +103,8 @@ echo "Now generate a NixOS configuration and modify it to our liking. The follow
 nixos-generate-config --root /mnt
 
 # After this you are done
+echo "legacy: https://bluishcoder.co.nz/2014/05/14/installing-nixos-with-encrypted-root-on-thinkpad-w540.html"
+echo "efi: https://gist.github.com/martijnvermaat/76f2e24d0239470dd71050358b4d5134"
 echo "nixos-install"
 echo "nixos-reboot"
 echo "ok v1"
