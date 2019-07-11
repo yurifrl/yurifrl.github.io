@@ -107,4 +107,4 @@ echo "legacy: https://bluishcoder.co.nz/2014/05/14/installing-nixos-with-encrypt
 echo "efi: https://gist.github.com/martijnvermaat/76f2e24d0239470dd71050358b4d5134"
 echo "nixos-install"
 echo "nixos-reboot"
-echo "ok v1"
+echo "ok v2"
