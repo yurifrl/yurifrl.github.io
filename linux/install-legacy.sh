@@ -50,3 +50,4 @@ nixos-generate-config --root /mnt
 # After this you are done
 echo "nixos-install"
 echo "nixos-reboot"
+echo "ok v1"
