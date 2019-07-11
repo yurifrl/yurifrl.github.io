@@ -1,8 +1,8 @@
 DISK=/dev/sda
 
 # Connect to wifi
-wpa_passphrase $SSID $PASSWORD >/etc/wpa_supplicant.conf
-systemctl start wpa_supplicant
+# wpa_passphrase $SSID $PASSWORD >/etc/wpa_supplicant.conf
+# systemctl start wpa_supplicant
 
 # clear all partition, fs etc. labels
 wipefs -a $DISK
