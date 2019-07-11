@@ -33,15 +33,16 @@ vgcreate vg /dev/mapper/enc-pv
 lvcreate -L 200M -n swap vg
 lvcreate -l '100%FREE' -n root vg
 
-# Forrmat the partitions:
-mkfs.fat /dev/sda1
-mkfs.ext4 -L root /dev/vg/root
+# Forrmat the partitions
+# Will do nothing with sda1??
+mkfs.ext2 -L boot /dev/sda2
+mkfs.ext4 -O dir_index -j -L root /dev/vg/root
 mkswap -L swap /dev/vg/swap
 
 # We mount the partitions we just created under /mnt so we can install NixOS on them.
 mount /dev/vg/root /mnt
 mkdir /mnt/boot
-mount /dev/sda1 /mnt/boot
+mount /dev/sda2 /mnt/boot
 swapon /dev/vg/swap
 
 # Now generate a NixOS configuration and modify it to our liking. The following is the configuration I started with.
