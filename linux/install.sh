@@ -78,7 +78,6 @@ function setup_efi() {
     mount $BIOS_DISK /mnt/boot
     swapon /dev/vg/swap
 }
-
 # Connect to wifi
 echo "wpa_passphrase $SSID $PASSWORD >/etc/wpa_supplicant.conf"
 echo "systemctl start wpa_supplicant"
@@ -108,3 +107,10 @@ echo "efi: https://gist.github.com/martijnvermaat/76f2e24d0239470dd71050358b4d51
 echo "nixos-install"
 echo "nixos-reboot"
 echo "ok v2"
+
+
+mkdir -p /mnt/home/yuri/
+cd /mnt/home/yuri/
+git clone https://github.com/yurifrl/NixFiles
+cp ./NixFiles/configuration.nix /mnt/etc/nixos/configuration.nix.new
+
