@@ -2,12 +2,12 @@ role: Software Engineer
 city: São Paulo, Brazil
 
 sections:
-  - title: DDD, Functional developer | Distributed Systems | Scrum Agile Methodologies
+  - title: DDD, Functional developer | Distributed Systems
     class: center
-  - content: Detail-oriented programmer and Software Architect with 6+ years’ success devising innovative
+  - content: Detail-oriented programmer and Software Architect with 7+ years’ success devising innovative
       and tailored solutions to meet ever-changing business requirements within diverse industries.
       Advanced skill with leading-edge programming tools complemented by proven ability
-      to assimilate and rapidly utilize emerging technologies. Solid mathematical
+      to assimilate and rapidly utilize emerging technologies. Some mathematical
       knowledge with experience developing comprehensive algorithms and data-processing
       logic. Technical proficiencies include...
     lists:
@@ -19,8 +19,6 @@ sections:
           - title: Expert in advanced development methodologies
             content: microservices, container orchestration tools and using TDD and DDD
               contributing to the design and rollout of cutting-edge software applications.
-          - title: Known for excellent troubleshooting skill
-            content: able to analyze code and engineer well-researched, cost-effective and responsive solutions.
   - title: Technical Tools
     list_items:
       - API
@@ -29,7 +27,6 @@ sections:
       - Docker
       - ElasticSearch
       - Elixir
-      - Ember
       - Event Sourcing
       - GIT
       - Google Cloud
@@ -48,7 +45,6 @@ sections:
       - Redis
       - Rethink
       - React
-      - Ruby
       - Vue.js
       - Prometheus
       - Istio
