@@ -78,6 +78,11 @@ function setup_efi() {
     mount $BIOS_DISK /mnt/boot
     swapon /dev/vg/swap
 }
+
+# Install deps
+echo "Install deps"
+nix-env -i git
+
 # Connect to wifi
 echo "wpa_passphrase $SSID $PASSWORD >/etc/wpa_supplicant.conf"
 echo "systemctl start wpa_supplicant"
@@ -101,16 +106,15 @@ blkid $LVM_DISK > uuid.txt
 echo "Now generate a NixOS configuration and modify it to our liking. The following is the configuration I started with."
 nixos-generate-config --root /mnt
 
+# Setup configs
+mkdir -p /mnt/home/yuri/
+cd /mnt/home/yuri/
+git clone https://github.com/yurifrl/NixFiles
+cp ./NixFiles/configuration.nix /mnt/etc/nixos/configuration.nix.new
+
 # After this you are done
 echo "legacy: https://bluishcoder.co.nz/2014/05/14/installing-nixos-with-encrypted-root-on-thinkpad-w540.html"
 echo "efi: https://gist.github.com/martijnvermaat/76f2e24d0239470dd71050358b4d5134"
 echo "nixos-install"
 echo "nixos-reboot"
 echo "ok v2"
-
-
-mkdir -p /mnt/home/yuri/
-cd /mnt/home/yuri/
-git clone https://github.com/yurifrl/NixFiles
-cp ./NixFiles/configuration.nix /mnt/etc/nixos/configuration.nix.new
-
