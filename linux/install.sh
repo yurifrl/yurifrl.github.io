@@ -68,14 +68,14 @@ function setup_efi() {
     lvcreate -l '100%FREE' -n root vg
 
     echo "Forrmat the partitions."
-    mkfs.fat $BIOS_DISK
+    mkfs.fat -F 32 -n boot $BIOS_DISK
     mkfs.ext4 -L root /dev/vg/root
     mkswap -L swap /dev/vg/swap
 
     echo "We mount the partitions we just created so we can install NixOS on them."
     mount /dev/vg/root /mnt
-    mkdir /boot
-    mount $BIOS_DISK /boot
+    mkdir /mnt/boot
+    mount $BIOS_DISK /mnt/boot
     swapon /dev/vg/swap
 }
 
