@@ -59,6 +59,7 @@ sections:
           - content: "Worked on bringing Dafiti's legacy software to a more modern cloud architecture"
           - content: "Wrote kubernetes controllers to run Black Friday Stress test and acceptance tests automatically"
           - content: "Worked on orchestrating applications to scale based on custom metrics"
+          - content: "Used argocd to deploy applications"
       - title: Software Engineer
         content: 3/17 to 6/19 - Totvs
         items:
@@ -79,10 +80,10 @@ sections:
               Continuous integration, Elasticsearch, PostgreSQL and others."
           - content: "Developing E-Commerce API to follow the newest API conventions and standards,
               with Grape, Rails, AMS, and  JWT as authentication and JSON as the notation language."
-          - content: "Creating an maitaining Javascript SDK for the E-Commerce API and using this
+          - content: "Creating and maintaining Javascript SDK for the E-Commerce API and using this
               SDK in EmberJS applications."
           - content: "E-Commerce platform SysAdmin, deploying containers to production,
-              Redis for caching, SQS for asynchronous jobs, Nginx for Web Hosting."
+              Redis for caching, SQS for asynchronous jobs, Nginx for Web Server."
           - content: "Developing E-Commerces using Restful API, javascript with EmberJS."
           - content: "Managing kubernetes cluster on google cloud."
           - content: "Deploying application using drone ci"
