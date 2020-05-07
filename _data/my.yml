@@ -2,18 +2,16 @@ role: Software Engineer
 city: São Paulo, Brazil
 
 sections:
-  - title: DDD, Functional developer | Distributed Systems
+  - title: DDD, Functional Developer | Distributed Systems
     class: center
-  - content: Detail-oriented programmer and Software Architect with 7+ years’ success devising innovative
-      and tailored solutions to meet ever-changing business requirements within diverse industries.
-      Advanced skill with leading-edge programming tools complemented by proven ability
-      to assimilate and rapidly utilize emerging technologies. Some mathematical
-      knowledge with experience developing comprehensive algorithms and data-processing
-      logic. Technical proficiencies include...
+  - content: Detail-oriented programmer and Software Architect with 7+ years success devising innovative
+      solutions to meet ever-changing business requirements within diverse industries.
+      Advanced skill with bleeding-edge programming tools complemented by proven ability
+      to assimilate and rapidly utilize emerging technologies, always challenging preconceptions. Functional programming enthusiast.
     lists:
       - items:
           - title: Innovative software engineer offering
-            content: six years of experience in the full software
+            content: seven years of experience in the full software
               development lifecycle – from concept through delivery of next-generation applications
               and customizable solutions.
           - title: Expert in advanced development methodologies
@@ -21,48 +19,58 @@ sections:
               contributing to the design and rollout of cutting-edge software applications.
   - title: Technical Tools
     list_items:
-      - API
       - Agile Methods
-      - Container orchestration
+      - AWS
+      - AWS Lambda
+      - C
+      - Container Orchestration
       - Docker
-      - ElasticSearch
       - Elixir
       - Event Sourcing
       - GIT
+      - Go
       - Google Cloud
+      - Graphql
+      - Haskell
       - Heroku
+      - Istio
+      - Service Mesh
+      - Java
       - JavaScript
       - Kafka
       - Kubernetes
       - Linux
       - Microservices Deploy
       - Nginx
-      - NoSql Databases
       - Node.js
-      - SQL
       - NoSQL
-      - Haskell
-      - Redis
-      - Rethink
-      - React
-      - Vue.js
       - Prometheus
-      - Istio
-      - Go
+      - React
+      - Redis
+      - Rest API
+      - Rethink
+      - SQL
+      - Vue.js
   - title: Professional Experience
     lists:
-      - title: Software Engineer
-        content: 3/17 to now - Totvs
+      - title: Software Engineer 
+        content: 6/19 to Present - Dafiti
         items:
-          - content: "Working to provision legacy software on cloud, using containers and orchestrating with kubernetes."
+          - content: "Worked on bringing Dafiti's legacy software to a more modern cloud architecture"
+          - content: "Wrote kubernetes controllers to run Black Friday Stress test and acceptance tests automatically"
+          - content: "Worked on orchestrating applications to scale based on custom metrics"
+      - title: Software Engineer
+        content: 3/17 to 6/19 - Totvs
+        items:
+          - content: "Workied to provision legacy software on cloud, using containers and orchestrating with kubernetes."
           - content: "Engineered and Developed the new application to manage infrastructure, managing helm and transforme executions "
           - content: "Developed a Graphql api used internally to request new instances of the legacy code"
           - content: "Developed a execution engine to manage internal executions using ruby"
           - content: "Developed an application to make previously single thread software to run concurrently in multiples pods using Go and redis"
-          - content: "Using drone to deploy ci to publish charts and images, and rancher to deploy applications on kubernetes, writhing kubernetes specs with helm"
-          - content: "Using Prometheus for system monitoring"
+          - content: "Used drone to deploy ci to publish charts and images, and rancher to deploy applications on kubernetes, writhing kubernetes specs with helm"
+          - content: "Used Prometheus for system monitoring"
           - content: "Used faas and aws lambda to run low cost and quick to assemble services"
-          - content: "Using flux architecture to manage state on an angular application"
+          - content: "Used flux architecture to manage state on an angular application"
       - title: Software Engineer
         content: 1/14 to 2/17 - Yebo, API E-Commerce
         items:
