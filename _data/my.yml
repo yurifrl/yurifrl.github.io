@@ -13,9 +13,9 @@ sections:
             content: microservices, container orchestration tools and using TDD and DDD contributing to the design and rollout of cutting-edge software applications.
   - title: Technical Tools
     list_items:
-      - Agile Methods
       - AWS
       - AWS Lambda
+      - Agile Methods
       - Container Orchestration
       - Docker
       - Elixir
@@ -31,8 +31,9 @@ sections:
       - Kubernetes
       - Linux
       - Microservices Deploy
-      - Node.js
+      - Nixos
       - NoSQL
+      - Node.js
       - Prometheus
       - React
       - Redis
@@ -41,15 +42,15 @@ sections:
       - Vue.js
   - title: Professional Experience
     lists:
-      - title: Software Engineer
-        content: 6/19 to Present - Dafiti
+      - title: Site Reliability Engineer - Dafiti
+        content: 6/19 to Present
         items:
           - content: "Worked on bringing Dafiti's legacy software to a modern cloud architecture"
           - content: "Managed the automated Black Friday Stress test and acceptance tests"
           - content: "Worked on orchestrating applications to scale based on custom metrics"
           - content: "Used Argocd to deploy applications"
-      - title: Software Engineer
-        content: 3/17 to 6/19 - Totvs
+      - title: Site Reliability Engineer - Totvs
+        content: 3/17 to 6/19
         items:
           - content: "Worked to provision legacy software on cloud, using containers and orchestrating with Kubernetes."
           - content: "Engineered and Developed the new application to manage infrastructure, managing helm and terraform executions"
@@ -60,8 +61,8 @@ sections:
           - content: "Used Prometheus for system monitoring"
           - content: "Used faas and AWS lambda to run low cost and quick to assemble services"
           - content: "Used flux architecture to manage state on an angular application"
-      - title: Software Engineer
-        content: 1/14 to 2/17 - Yebo, API E-Commerce
+      - title: Software Engineer - Yebo, API E-Commerce
+        content: 1/14 to 2/17
         items:
           - content: "Developing and maintaining large-scale E-Commerce platform using technologies
               such as: Ruby, Amazon SQS, Kubernetes, Redis, Docker, Docker Compose,

@@ -21,7 +21,7 @@ title: résumé
 
       <section class="content-section-data">
         {% for list in section.lists %}
-          <h3>{% if list.title %}<span class="highlight">{{ list.title}},</span>{% endif %}{{ list.content }}</h3>
+          <h3>{% if list.title %}<span class="highlight">{{ list.title}}</span> {% endif %}{{ list.content }}</h3>
             <ul class="item">
               {% for item in list.items %}
               <li>
@@ -44,4 +44,3 @@ title: résumé
     <button class="no-print" onclick="window.print()">PDF</button>
   </footer>
 </div>
-
