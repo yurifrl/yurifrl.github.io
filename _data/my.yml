@@ -44,7 +44,8 @@ sections:
     lists:
      - title: Senior Software Engineer - Telnyx
         content: 12/20 to Present
-        items: []
+        items:
+          - content: "Working on the porting squad as elixir engineer"
       - title: Site Reliability Engineer - Dafiti
         content: 6/19 to 12/20
         items:
