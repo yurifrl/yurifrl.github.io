@@ -4,13 +4,13 @@ city: São Paulo, Brazil
 sections:
   - title: DDD, Functional Developer | Distributed Systems
     class: center
-  - content: Detail-oriented programmer and Software Architect with 7+ years success devising innovative solutions to meet ever-changing business requirements within diverse industries. Advanced skill with bleeding-edge programming tools complemented by proven ability to assimilate and rapidly utilize emerging technologies, always challenging preconceptions. Functional programming enthusiast.
+  - content: Detail-oriented programmer and Software Architect with 8+ years of devising innovative solutions to meet ever-changing business requirements within diverse industries. Advanced skill with bleeding-edge programming tools complemented by proven ability to assimilate and rapidly utilize emerging technologies, always challenging preconceptions. Functional programming enthusiast.
     lists:
       - items:
           - title: Innovative software engineer offering
-            content: Seven years of experience in the full software development lifecycle – from concept through delivery of next-generation applications and customizable solutions.
+            content: Eight years of experience in the full software development lifecycle – from concept through delivery of next-generation applications and customizable solutions.
           - title: Expert in advanced development methodologies
-            content: microservices, container orchestration tools and using TDD and DDD contributing to the design and rollout of cutting-edge software applications.
+            content: microservices, container orchestration tools, and using TDD and DDD contributing to the design and rollout of cutting-edge software applications.
   - title: Technical Tools
     list_items:
       - AWS
@@ -42,8 +42,11 @@ sections:
       - Vue.js
   - title: Professional Experience
     lists:
+     - title: Senior Software Engineer - Telnyx
+        content: 12/20 to Present
+        items: []
       - title: Site Reliability Engineer - Dafiti
-        content: 6/19 to Present
+        content: 6/19 to 12/20
         items:
           - content: "Worked on bringing Dafiti's legacy software to a modern cloud architecture"
           - content: "Managed the automated Black Friday Stress test and acceptance tests"
@@ -55,7 +58,7 @@ sections:
           - content: "Worked to provision legacy software on cloud, using containers and orchestrating with Kubernetes."
           - content: "Engineered and Developed the new application to manage infrastructure, managing helm and terraform executions"
           - content: "Developed a Graphql api used internally to request new instances of the legacy code"
-          - content: "Developed a execution engine to manage internal executions using ruby"
+          - content: "Developed an execution engine to manage internal executions using ruby"
           - content: "Developed an application to make previously single thread software to run concurrently in multiples pods using Go and Redis"
           - content: "Used drone to deploy ci to publish charts and images, and rancher to deploy applications on Kubernetes, writhing Kubernetes specs with helm"
           - content: "Used Prometheus for system monitoring"
@@ -65,7 +68,7 @@ sections:
         content: 1/14 to 2/17
         items:
           - content: "Developing and maintaining large-scale E-Commerce platform using technologies
-              such as: Ruby, Amazon SQS, Kubernetes, Redis, Docker, Docker Compose,
+              such as Ruby, Amazon SQS, Kubernetes, Redis, Docker, Docker Compose,
               Continuous integration, Elasticsearch, PostgreSQL, and others."
           - content: "Developing E-Commerce API to follow the newest API conventions and standards,
               with Grape, Rails, AMS, and  JWT as authentication and JSON as the notation language."
