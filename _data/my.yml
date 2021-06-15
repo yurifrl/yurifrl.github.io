@@ -51,7 +51,8 @@ sections:
           - content: "Worked on bringing Dafiti's legacy software to a modern cloud architecture"
           - content: "Managed the automated Black Friday Stress test and acceptance tests"
           - content: "Worked on orchestrating applications to scale based on custom metrics"
-          - content: "Used Argocd to deploy applications"
+          - content: "Implemented ArgoCD to deploy applications"
+          - content: "Implemented istio"
       - title: Site Reliability Engineer - Totvs
         content: 3/17 to 6/19
         items:
