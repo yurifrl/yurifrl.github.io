@@ -42,7 +42,7 @@ sections:
       - Vue.js
   - title: Professional Experience
     lists:
-     - title: Senior Software Engineer - Telnyx
+      - title: Senior Software Engineer - Telnyx
         content: 12/20 to Present
         items:
           - content: "Working on the porting squad as elixir engineer"
