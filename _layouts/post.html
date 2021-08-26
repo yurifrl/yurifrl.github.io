@@ -1,10 +1,9 @@
 ---
 layout: default
 ---
-
 <div class="post">
   <div class="post__back">
-    <a href="/">&lt;-- home</a>
+    <a href="/">&lt;-- Home</a>
   </div>
   <div class="post__title">
     <h1>{{ page.title }}</h1>
@@ -15,7 +14,7 @@ layout: default
   <div class="post__meta">
     <p>{{ tags_content }}</p>
   </div>
-  <div class="post__content"?>
+  <div class="post__content" ?>
     {{ content }}
   </div>
 </div>
@@ -24,10 +23,10 @@ layout: default
   <h2>Related Posts</h2>
   <ul class="posts">
     {% for post in site.related_posts limit:3 %}
-      <li>
-        <span>{{ post.date | date_to_string  }}</span> &raquo;
-        <a href="{{ post.url }}">{{ post.title  }}</a>
-      </li>
+    <li>
+      <span>{{ post.date | date_to_string }}</span> &raquo;
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
     {% endfor %}
   </ul>
 </div>

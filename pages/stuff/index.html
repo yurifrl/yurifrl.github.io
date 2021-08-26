@@ -1,0 +1,33 @@
+---
+layout: default
+title: Stuff
+permalink: /stuff/
+---
+<div class="header">
+    <h1>{{ page.title }}</h1>
+    <a class="back no-print" href="/">&lt;-- back</a>
+</div>
+<div class="blog">
+    <div class="post">
+        <div class="post__title">
+            <h2>Cheat Sheets</h2>
+        </div>
+        <div class="post__content">
+            <ul>
+                {% for item in site.cheat_sheets %}
+                <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="post">
+        <div class="post__title">
+            <h2>Scripts</h2>
+        </div>
+        <div class="post__content">
+            <ul>
+                <li><a href="/pages/linux/install.sh">linux TOTAL wipeout script</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

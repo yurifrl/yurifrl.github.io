@@ -2,9 +2,13 @@
 permalink: /:title
 
 # My variables, this will go to `site` variable
-name: Yuri Freire Lima
-description: software architect
+title: Yuri Freire Lima
+description: Software Engineer
 google_verification: google3efd61b6b9deca0b.html
+collections_dir: collections
+collections:
+  cheat_sheets:
+    output: true
 
 # Sass
 sass:
@@ -15,8 +19,6 @@ sass:
 include: [".htaccess"]
 exclude:
   - README.md
-  - TODO.md
-  - work-log.md
   - LICENSE
   - docker-compose.yml
 

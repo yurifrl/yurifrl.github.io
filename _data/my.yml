@@ -2,7 +2,7 @@ role: Software Engineer
 city: São Paulo, Brazil
 
 sections:
-  - title: DDD, Functional Developer | Distributed Systems
+  - title: DDD, Functional Developer, Distributed Systems
     class: center
   - content: Detail-oriented programmer and Software Architect with 8+ years of devising innovative solutions to meet ever-changing business requirements within diverse industries. Advanced skill with bleeding-edge programming tools complemented by proven ability to assimilate and rapidly utilize emerging technologies, always challenging preconceptions. Functional programming enthusiast.
     lists:
@@ -10,7 +10,7 @@ sections:
           - title: Innovative software engineer offering
             content: Eight years of experience in the full software development lifecycle – from concept through delivery of next-generation applications and customizable solutions.
           - title: Expert in advanced development methodologies
-            content: microservices, container orchestration tools, and using TDD and DDD contributing to the design and rollout of cutting-edge software applications.
+            content: Microservices, container orchestration tools, and using TDD and DDD contributing to the design and rollout of cutting-edge software applications.
   - title: Technical Tools
     list_items:
       - AWS
@@ -69,14 +69,18 @@ sections:
       - title: Software Engineer - Yebo, API E-Commerce
         content: 1/14 to 2/17
         items:
-          - content: "Developing and maintaining large-scale E-Commerce platform using technologies
+          - content:
+              "Developing and maintaining large-scale E-Commerce platform using technologies
               such as Ruby, Amazon SQS, Kubernetes, Redis, Docker, Docker Compose,
               Continuous integration, Elasticsearch, PostgreSQL, and others."
-          - content: "Developing E-Commerce API to follow the newest API conventions and standards,
+          - content:
+              "Developing E-Commerce API to follow the newest API conventions and standards,
               with Grape, Rails, AMS, and  JWT as authentication and JSON as the notation language."
-          - content: "Creating and maintaining Javascript SDK for the E-Commerce API and using this
+          - content:
+              "Creating and maintaining Javascript SDK for the E-Commerce API and using this
               SDK in EmberJS applications."
-          - content: "E-Commerce platform SysAdmin, deploying containers to production,
+          - content:
+              "E-Commerce platform SysAdmin, deploying containers to production,
               Redis for caching, SQS for asynchronous jobs, Nginx for Web Server."
           - content: "Developing E-Commerces using Restful API, javascript with EmberJS."
           - content: "Managing Kubernetes cluster on google cloud."

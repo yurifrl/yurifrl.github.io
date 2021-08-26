@@ -1,0 +1,48 @@
+---
+layout: default
+title: resume
+permalink: /resume/
+---
+<div class="header no-print">
+  <a class="back no-print" href="/">&lt;-- back</a>
+</div>
+
+<div class="resume">
+  <h1 class="title">Yuri F. Lima</h1>
+
+  <section class="contact">
+    <p>{{ site.data.my.role }}</p>
+    <p>{{ site.data.my.city }}</p>
+    <a href="mailto:lima.yuri@protonmail.com?Subject=Contact" target="_top">lima.yuri@protonmail.com</a>
+  </section>
+
+  {% for section in site.data.my.sections %}
+  <section class="content-section {{ section.class }}">
+    <header class="sub-title">{{ section.title }}</header>
+    <p>{{ section.content }}</p>
+
+    <section class="content-section-data">
+      {% for list in section.lists %}
+      <h3>{% if list.title %}<span class="highlight">{{ list.title}}</span> {% endif %}{{ list.content }}</h3>
+      <ul class="item">
+        {% for item in list.items %}
+        <li>
+          {% if item.title %}<span class="highlight">- {{item.title}},</span>{% endif %} {{item.content}}
+        </li>
+        {% endfor %}
+      </ul>
+      {% endfor %}
+      <p>
+        {% for item in section.list_items %}
+        {{item}}{% if forloop.last != true %},{% endif %}
+        {% endfor %}
+      </p>
+    </section>
+  </section>
+  {% endfor %}
+
+  <footer>
+    <a class="print-only">yurifrl.com/resume</a>
+    <button class="no-print" onclick="window.print()">PDF</button>
+  </footer>
+</div>
