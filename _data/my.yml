@@ -1,14 +1,16 @@
-Role: Software Engineer
-Location: São Paulo, Brazil
+role: Software Engineer
+city: São Paulo, Brazil
 
-Sections:
-  - title: SRE
-    content: A detail-oriented Software Engineer and Architect with a decade of experience in designing innovative solutions to meet dynamic business needs across various industries. Proficient in advanced programming tools, rapidly adaptable to emerging technologies, and known for challenging conventional methods.
-    list_items:
-      - title: Site Reliability Engineer
-        content: Full software development lifecycle coverage - from conceptualization through the delivery of next-generation applications and customizable solutions.
-      - title: Expertise in Advanced Development Methodologies
-        content: Adept in microservices and container orchestration tools, contributed to the design and deployment of cutting-edge software applications.
+sections:
+  - title: Site Reliability Engineer
+    class: center
+  - content: A detail-oriented Software Engineer and Architect with a decade of experience in designing innovative solutions to meet dynamic business needs across various industries. Proficient in advanced programming tools, rapidly adaptable to emerging technologies, and known for challenging conventional methods.
+    lists:
+      - items:
+          - title: Site Reliability Engineer
+            content: Full software development lifecycle coverage - from conceptualization through the delivery of next-generation applications and customizable solutions.
+          - title: Expertise in Advanced Development Methodologies
+            content: Adept in microservices and container orchestration tools, contributed to the design and deployment of cutting-edge software applications.
   - title: Technical Proficiencies
     list_items:
       - Kubernetes
@@ -36,35 +38,35 @@ Sections:
     lists:
       - title: Site Reliability Engineer - Cloudwalk
         content: 12/20 to Present
-        Items:
-          - Managed deployment pipeline and Kubernetes clusters
-          - Supervised status metrics and Postgres migration between providers
-          - Maintained internal CLI for running applications
+        items:
+          - content: Managed deployment pipeline and Kubernetes clusters
+          - content: Supervised status metrics and Postgres migration between providers
+          - content: Maintained internal CLI for running applications
       - title: Software Engineer - Telnyx
         content: 12/20 to 11/22
-        Items:
-          - Developed and maintained production software using Elixir & Phoenix
-          - Designed new features documented as RFC
-          - Created and maintained technical documentation and public REST APIs
-          - Managed technical debts and worked on SLOs
-          - Onboarded new team members and participated in technical hiring processes
-          - Improved system observability and optimized deployment
-          - Maintained service scalability, undertook on-call rotations, and adjusted alerts
+        items:
+          - content: Developed and maintained production software using Elixir & Phoenix
+          - content: Designed new features documented as RFC
+          - content: Created and maintained technical documentation and public REST APIs
+          - content: Managed technical debts and worked on SLOs
+          - content: Onboarded new team members and participated in technical hiring processes
+          - content: Improved system observability and optimized deployment
+          - content: Maintained service scalability, undertook on-call rotations, and adjusted alerts
       - title: Site Reliability Engineer - Dafiti
         content: 6/19 to 12/20
-        Items:
-          - Modernized Dafiti's legacy software architecture to cloud-based solutions
-          - Managed automated Black Friday Stress testing and acceptance tests
-          - Orchestrated application scalability based on custom metrics
-          - Implemented ArgoCD for application deployment and Istio for service mesh
+        items:
+          - content: Modernized Dafiti's legacy software architecture to cloud-based solutions
+          - content: Managed automated Black Friday Stress testing and acceptance tests
+          - content: Orchestrated application scalability based on custom metrics
+          - content: Implemented ArgoCD for application deployment and Istio for service mesh
       - title: Site Reliability Engineer - Totvs
         content: 3/17 to 6/19
-        Items:
-          - Provisioned legacy software on the cloud using containers and Kubernetes
-          - Engineered and developed an application for infrastructure management, managing Helm and Terraform executions
-          - Developed a GraphQL API for internal instance requests and an execution engine using Ruby
-          - Developed an application allowing single-thread software to run concurrently in multiple pods using Go and Redis
-          - Deployed CI with Drone for chart and image publication, used Rancher for Kubernetes-based application deployment
-          - Utilized Prometheus for system monitoring
-          - Employed FaaS and AWS Lambda for efficient, cost-effective services
-          - Managed state in an Angular application using Flux architecture
+        items:
+          - content: Provisioned legacy software on the cloud using containers and Kubernetes
+          - content: Engineered and developed an application for infrastructure management, managing Helm and Terraform executions
+          - content: Developed a GraphQL API for internal instance requests and an execution engine using Ruby
+          - content: Developed an application allowing single-thread software to run concurrently in multiple pods using Go and Redis
+          - content: Deployed CI with Drone for chart and image publication, used Rancher for Kubernetes-based application deployment
+          - content: Utilized Prometheus for system monitoring
+          - content: Employed FaaS and AWS Lambda for efficient, cost-effective services
+          - content: Managed state in an Angular application using Flux architecture
