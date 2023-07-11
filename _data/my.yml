@@ -4,13 +4,13 @@ city: São Paulo, Brazil
 sections:
   - title: SRE
     class: center
-  - content: Detail-oriented programmer and Software Architect with 8+ years of devising innovative solutions to meet ever-changing business requirements within diverse industries. Advanced skill with bleeding-edge programming tools complemented by proven ability to assimilate and rapidly utilize emerging technologies, always challenging preconceptions. Functional programming enthusiast.
+  - content: Detail-oriented programmer and Software Architect with 10 years of creating innovative solutions to meet ever-changing business requirements within diverse industries. Advanced skill with bleeding-edge programming tools complemented by proven ability to assimilate and rapidly utilize emerging technologies, always challenging preconceptions.
     lists:
       - items:
-          - title: Innovative software engineer offering
-            content: Eight years of experience in the full software development lifecycle – from concept through delivery of next-generation applications and customizable solutions.
+          - title: Site Reliability Engineer
+            content: Ten years of experience in the full software development lifecycle – from concept through delivery of next-generation applications and customizable solutions.
           - title: Expert in advanced development methodologies
-            content: Microservices, container orchestration tools, and using TDD and DDD contributing to the design and rollout of cutting-edge software applications.
+            content: Microservices, container orchestration tools, using TDD and DDD contributing to the design and rollout of cutting-edge software applications.
   - title: Technical Tools
     list_items:
       - Kubernetes
