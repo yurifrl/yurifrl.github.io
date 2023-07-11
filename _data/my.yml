@@ -2,7 +2,7 @@ role: Software Engineer
 city: São Paulo, Brazil
 
 sections:
-  - title: DDD, Functional Developer, Distributed Systems
+  - title: SRE
     class: center
   - content: Detail-oriented programmer and Software Architect with 8+ years of devising innovative solutions to meet ever-changing business requirements within diverse industries. Advanced skill with bleeding-edge programming tools complemented by proven ability to assimilate and rapidly utilize emerging technologies, always challenging preconceptions. Functional programming enthusiast.
     lists:
@@ -13,75 +13,68 @@ sections:
             content: Microservices, container orchestration tools, and using TDD and DDD contributing to the design and rollout of cutting-edge software applications.
   - title: Technical Tools
     list_items:
+      - Kubernetes
       - AWS
-      - AWS Lambda
-      - Agile Methods
+      - Lambda Functions, AWS and GCO
       - Container Orchestration
       - Docker
       - Elixir
-      - Event Sourcing
-      - GIT
-      - Go
+      - Git
+      - Golang
       - Google Cloud
       - Graphql
       - Haskell
       - Istio
       - JavaScript
-      - Kafka
-      - Kubernetes
       - Linux
-      - Microservices Deploy
+      - Microservices
       - Nixos
-      - NoSQL
-      - Node.js
       - Prometheus
-      - React
       - Redis
+      - Postgres
       - Rest API
-      - Service Mesh
-      - Vue.js
+      - Envoy Service Mesh
   - title: Professional Experience
     lists:
-      - title: Senior Software Engineer - Telnyx
+      - title: Site Reliability Engineer - Cloudwalk
         content: 12/20 to Present
         items:
-          - content: "Working on the porting squad as elixir engineer"
+          - content: Manage on deploying pipeline
+          - content: Manage kubernetes clusters
+          - content: Manage status metrics
+          - content: Postgres migration betwen providers
+          - content: Maintain internal cli for running applications
+      - title: Software Engineer - Telnyx
+        content: 12/20 to 11/22
+        items:
+          - content: Create and maintain production software in Elixir & Phoenix
+          - content: Design new features in the form of RFC documents
+          - content: Create and maintain Documentation
+          - content: Create public REST APIs
+          - content: Help manage Tech Debts
+          - content: Work on SLO's
+          - content: Onboard team members
+          - content: Participate in Technical hiring interviews
+          - content: Improve observability
+          - content: Optimize deploys
+          - content: Maintaining service at scale, worked on-call rotations and tunning alerts
       - title: Site Reliability Engineer - Dafiti
         content: 6/19 to 12/20
         items:
-          - content: "Worked on bringing Dafiti's legacy software to a modern cloud architecture"
-          - content: "Managed the automated Black Friday Stress test and acceptance tests"
-          - content: "Worked on orchestrating applications to scale based on custom metrics"
-          - content: "Implemented ArgoCD to deploy applications"
-          - content: "Implemented istio"
+          - content: Worked on bringing Dafiti's legacy software to a modern cloud architecture
+          - content: Managed the automated Black Friday Stress test and acceptance tests
+          - content: Worked on orchestrating applications to scale based on custom metrics
+          - content: Implemented ArgoCD to deploy applications
+          - content: Implemented istio
       - title: Site Reliability Engineer - Totvs
         content: 3/17 to 6/19
         items:
-          - content: "Worked to provision legacy software on cloud, using containers and orchestrating with Kubernetes."
-          - content: "Engineered and Developed the new application to manage infrastructure, managing helm and terraform executions"
-          - content: "Developed a Graphql api used internally to request new instances of the legacy code"
-          - content: "Developed an execution engine to manage internal executions using ruby"
-          - content: "Developed an application to make previously single thread software to run concurrently in multiples pods using Go and Redis"
-          - content: "Used drone to deploy ci to publish charts and images, and rancher to deploy applications on Kubernetes, writhing Kubernetes specs with helm"
-          - content: "Used Prometheus for system monitoring"
-          - content: "Used faas and AWS lambda to run low cost and quick to assemble services"
-          - content: "Used flux architecture to manage state on an angular application"
-      - title: Software Engineer - Yebo, API E-Commerce
-        content: 1/14 to 2/17
-        items:
-          - content:
-              "Developing and maintaining large-scale E-Commerce platform using technologies
-              such as Ruby, Amazon SQS, Kubernetes, Redis, Docker, Docker Compose,
-              Continuous integration, Elasticsearch, PostgreSQL, and others."
-          - content:
-              "Developing E-Commerce API to follow the newest API conventions and standards,
-              with Grape, Rails, AMS, and  JWT as authentication and JSON as the notation language."
-          - content:
-              "Creating and maintaining Javascript SDK for the E-Commerce API and using this
-              SDK in EmberJS applications."
-          - content:
-              "E-Commerce platform SysAdmin, deploying containers to production,
-              Redis for caching, SQS for asynchronous jobs, Nginx for Web Server."
-          - content: "Developing E-Commerces using Restful API, javascript with EmberJS."
-          - content: "Managing Kubernetes cluster on google cloud."
-          - content: "Deploying application using drone ci"
+          - content: Worked to provision legacy software on cloud, using containers and orchestrating with Kubernetes.
+          - content: Engineered and Developed the new application to manage infrastructure, managing helm and terraform executions
+          - content: Developed a Graphql api used internally to request new instances of the legacy code
+          - content: Developed an execution engine to manage internal executions using ruby
+          - content: Developed an application to make previously single thread software to run concurrently in multiples pods using Go and Redis
+          - content: Used drone to deploy ci to publish charts and images, and rancher to deploy applications on Kubernetes, writhing Kubernetes specs with helm
+          - content: Used Prometheus for system monitoring
+          - content: Used faas and AWS lambda to run low cost and quick to assemble services
+          - content: Used flux architecture to manage state on an angular application
