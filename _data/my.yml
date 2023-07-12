@@ -2,27 +2,27 @@ role: Software Engineer
 city: São Paulo, Brazil
 
 sections:
-  - title: Site Reliability Engineer
+  - title: SRE
     class: center
-  - content: A detail-oriented Software Engineer and Architect with a decade of experience in designing innovative solutions to meet dynamic business needs across various industries. Proficient in advanced programming tools, rapidly adaptable to emerging technologies, and known for challenging conventional methods.
+  - content: Detail-oriented programmer and Software Architect with 8+ years of devising innovative solutions to meet ever-changing business requirements within diverse industries. Advanced skill with bleeding-edge programming tools complemented by proven ability to assimilate and rapidly utilize emerging technologies, always challenging preconceptions. Functional programming enthusiast.
     lists:
       - items:
-          - title: Site Reliability Engineer
-            content: Full software development lifecycle coverage - from conceptualization through the delivery of next-generation applications and customizable solutions.
-          - title: Expertise in Advanced Development Methodologies
-            content: Adept in microservices and container orchestration tools, contributed to the design and deployment of cutting-edge software applications.
-  - title: Technical Proficiencies
+          - title: Innovative software engineer offering
+            content: Eight years of experience in the full software development lifecycle – from concept through delivery of next-generation applications and customizable solutions.
+          - title: Expert in advanced development methodologies
+            content: Microservices, container orchestration tools, and using TDD and DDD contributing to the design and rollout of cutting-edge software applications.
+  - title: Technical Tools
     list_items:
       - Kubernetes
       - AWS
-      - AWS and GCP Lambda Functions
+      - Lambda Functions, AWS and GCO
       - Container Orchestration
       - Docker
       - Elixir
       - Git
       - Golang
       - Google Cloud
-      - GraphQL
+      - Graphql
       - Haskell
       - Istio
       - JavaScript
@@ -32,41 +32,48 @@ sections:
       - Prometheus
       - Redis
       - Postgres
-      - REST API
+      - Rest API
       - Envoy Service Mesh
   - title: Professional Experience
     lists:
-      - title: Site Reliability Engineer - Cloudwalk
-        content: 12/20 to Present
-        items:
-          - content: Managed deployment pipeline and Kubernetes clusters
-          - content: Supervised status metrics and Postgres migration between providers
-          - content: Maintained internal CLI for running applications
-      - title: Software Engineer - Telnyx
+      - title: Senior Site Reliability Engineer - Cloudwalk
         content: 12/20 to 11/22
         items:
-          - content: Developed and maintained production software using Elixir & Phoenix
-          - content: Designed new features documented as RFC
-          - content: Created and maintained technical documentation and public REST APIs
-          - content: Managed technical debts and worked on SLOs
-          - content: Onboarded new team members and participated in technical hiring processes
-          - content: Improved system observability and optimized deployment
-          - content: Maintained service scalability, undertook on-call rotations, and adjusted alerts
+          - content: Manage on deploying pipeline
+          - content: Manage kubernetes clusters
+          - content: Manage status metrics
+          - content: Postgres migration betwen provicers
+      - title: Senior Software Engineer - Telnyx
+        content: 12/20 to 11/22
+        items:
+          - content: Create and maintain production software in Elixir & Phoenix
+          - content: Design new features in the form of RFC documents
+          - content: Create and maintain Documentation
+          - content: Create public REST APIs
+          - content: Help manage Tech Debts
+          - content: Work on SLO's
+          - content: Onboard team members
+          - content: Participate in Technical hiring interviews
+          - content: Improve observability
+          - content: Optimize deploys
+          - content: Maintaining service at scale, worked on-call rotations and tunning alerts
       - title: Site Reliability Engineer - Dafiti
         content: 6/19 to 12/20
         items:
-          - content: Modernized Dafiti's legacy software architecture to cloud-based solutions
-          - content: Managed automated Black Friday Stress testing and acceptance tests
-          - content: Orchestrated application scalability based on custom metrics
-          - content: Implemented ArgoCD for application deployment and Istio for service mesh
+          - content: Worked on bringing Dafiti's legacy software to a modern cloud architecture
+          - content: Managed the automated Black Friday Stress test and acceptance tests
+          - content: Worked on orchestrating applications to scale based on custom metrics
+          - content: Implemented ArgoCD to deploy applications
+          - content: Implemented istio
       - title: Site Reliability Engineer - Totvs
         content: 3/17 to 6/19
         items:
-          - content: Provisioned legacy software on the cloud using containers and Kubernetes
-          - content: Engineered and developed an application for infrastructure management, managing Helm and Terraform executions
-          - content: Developed a GraphQL API for internal instance requests and an execution engine using Ruby
-          - content: Developed an application allowing single-thread software to run concurrently in multiple pods using Go and Redis
-          - content: Deployed CI with Drone for chart and image publication, used Rancher for Kubernetes-based application deployment
-          - content: Utilized Prometheus for system monitoring
-          - content: Employed FaaS and AWS Lambda for efficient, cost-effective services
-          - content: Managed state in an Angular application using Flux architecture
+          - content: Worked to provision legacy software on cloud, using containers and orchestrating with Kubernetes.
+          - content: Engineered and Developed the new application to manage infrastructure, managing helm and terraform executions
+          - content: Developed a Graphql api used internally to request new instances of the legacy code
+          - content: Developed an execution engine to manage internal executions using ruby
+          - content: Developed an application to make previously single thread software to run concurrently in multiples pods using Go and Redis
+          - content: Used drone to deploy ci to publish charts and images, and rancher to deploy applications on Kubernetes, writhing Kubernetes specs with helm
+          - content: Used Prometheus for system monitoring
+          - content: Used faas and AWS lambda to run low cost and quick to assemble services
+          - content: Used flux architecture to manage state on an angular application
