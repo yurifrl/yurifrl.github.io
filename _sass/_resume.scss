@@ -22,14 +22,19 @@
   }
 
   .content-section {
-    margin: 0 0 2rem;
-    @media print { margin: 0 0 1rem; }
+    margin: 1rem 0 2rem;
 
-    li { display: inline-block; }
+    @media print {
+      margin: 0 0 1rem;
+    }
+
+    li {
+      display: block;
+    }
   }
 
   .content-section-data {
-    margin-left: 1em;
+    margin: 1rem 0 1rem;
   }
 
   .highlight {

@@ -5,39 +5,58 @@ permalink: /resume/
 ---
 <a class="back no-print" href="/">&lt;-- back</a>
 
+{% assign data = site.data.cv %}
+
 <div class="resume">
   <h1 class="title">Yuri F. Lima</h1>
 
   <section class="contact">
-    <p>{{ site.data.my.role }}</p>
-    <p>{{ site.data.my.city }}</p>
-    <a href="mailto:lima.yuri@protonmail.com?Subject=Contact" target="_top">lima.yuri@protonmail.com</a>
+    <p>{{ data.city }}</p>
+    <a href="mailto:yuri.cv@proton.me?Subject=CV Contact" target="_top">yuri.cv@proton.me</a>
   </section>
 
-  {% for section in site.data.my.sections %}
-  <section class="content-section {{ section.class }}">
-    <header class="sub-title">{{ section.title }}</header>
-    <p>{{ section.content }}</p>
+  <section class="content-section">
+    <h3 class="sub-title center">{{ data.title }}</h3>
 
     <section class="content-section-data">
-      {% for list in section.lists %}
-      <h3>{% if list.title %}<span class="highlight">{{ list.title}}</span> {% endif %}{{ list.content }}</h3>
-      <ul class="item">
-        {% for item in list.items %}
-        <li>
-          {% if item.title %}<span class="highlight">- {{item.title}},</span>{% endif %} {{item.content}}
-        </li>
-        {% endfor %}
+      <p>{{ data.content }}</p>
+    </section>
+
+    <section class="content-section-data">
+      {% for item in data.main_items %}
+      <ul>
+        <li><span class="highlight">- {{ item.title }}</span> {{ item.content }}</li>
       </ul>
       {% endfor %}
-      <p>
-        {% for item in section.list_items %}
-        {{item}}{% if forloop.last != true %},{% endif %}
-        {% endfor %}
-      </p>
     </section>
   </section>
-  {% endfor %}
+
+  <section class="content-section">
+    <h3 class="sub-title">{{ data.proficiencies.title }}</h3>
+
+    <section class="content-section-data">
+      {% for item in data.proficiencies.items %}
+      {{ item }}{% if forloop.last != true %},{% endif %}
+      {% endfor %}
+    </section>
+  </section>
+
+
+  <section class="content-section">
+    <h3 class="sub-title">{{ data.previous.title }}</h3>
+
+    {% for item in data.previous.items %}
+    <section class="content-section-data">
+      <h4><span class="highlight">{{ item.title}}</span> {{ item.period }}</h4>
+      <ul class="item">
+        {% for content in item.contents %}
+        <li>- {{content}}</li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endfor %}
+
+  </section>
 
   <footer>
     <a class="print-only">yurifrl.com/resume</a>

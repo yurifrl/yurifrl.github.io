@@ -1,0 +1,72 @@
+title: Site Reliability Engineer
+city: São Paulo, Brazil
+content: A detail-oriented Software Engineer and Architect with a decade of experience in designing innovative solutions to meet dynamic business needs across various industries. Proficient in advanced programming tools, rapidly adaptable to emerging technologies, and known for challenging conventional methods.
+
+main_items:
+  - title: Innovative software engineer
+    content: Full software development lifecycle, from conceptualization through the delivery of next-generation applications and customizable solutions.
+  - title: Expertise in Advanced Development Methodologies
+    content: Adept in microservices and container orchestration tools, contributed to the design and deployment of cutting-edge software applications.
+
+proficiencies:
+  title: Proficiencies
+  items:
+    - Kubernetes
+    - AWS
+    - AWS and GCP Lambda Functions
+    - Container Orchestration
+    - Docker
+    - Elixir
+    - Git
+    - Golang
+    - Google Cloud
+    - GraphQL
+    - Haskell
+    - Istio
+    - JavaScript
+    - Linux
+    - Microservices
+    - Nixos
+    - Prometheus
+    - Redis
+    - Postgres
+    - REST API
+    - Envoy Service Mesh
+
+previous:
+  title: Professional Experience
+  items:
+    - title: Site Reliability Engineer - Cloudwalk
+      period: 12/20 to Present
+      contents:
+        - Managed deployment pipeline and Kubernetes clusters
+        - Supervised status metrics and Postgres migration between providers
+        - Maintained internal CLI for running applications
+    - title: Software Engineer - Telnyx
+      period: 12/20 to 11/22
+      contents:
+        - Developed and maintained production software using Elixir & Phoenix
+        - Designed new features documented as RFC
+        - Created and maintained technical documentation and public REST APIs
+        - Managed technical debts and worked on SLOs
+        - Onboarded new team members and participated in technical hiring processes
+        - Improved system observability and optimized deployment
+        - Maintained service scalability, undertook on-call rotations, and adjusted alerts
+    - title: Site Reliability Engineer - Dafiti
+      period: 6/19 to 12/20
+      contents:
+        - Modernized Dafiti's legacy software architecture to cloud-based solutions
+        - Managed automated Black Friday Stress testing and acceptance tests
+        - Orchestrated application scalability based on custom metrics
+        - Implemented ArgoCD for application deployment and Istio for service mesh
+    - title: Site Reliability Engineer - Totvs
+      period: 3/17 to 6/19
+      contents:
+        - Provisioned legacy software on the cloud using containers and Kubernetes
+        - Engineered and developed an application for infrastructure management, managing Helm and Terraform executions
+        - Developed a GraphQL API for internal instance requests and an execution engine using Ruby
+        - Developed an application allowing single-thread software to run concurrently in multiple pods using Go and Redis
+        - Deployed CI with Drone for chart and image publication, used Rancher for Kubernetes-based application deployment
+        - Utilized Prometheus for system monitoring
+        - Employed FaaS and AWS Lambda for efficient, cost-effective services
+        - Managed state in an Angular application using Flux architecture
