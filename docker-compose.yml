@@ -2,6 +2,7 @@ version: '3.7'
 services:
   web:
     build: .
+    command: jekyll serve --watch --drafts
     ports:
       - 4000:4000
     volumes:
