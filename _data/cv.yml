@@ -13,7 +13,6 @@ proficiencies:
   items:
     - Kubernetes
     - AWS
-    - AWS and GCP Lambda Functions
     - Container Orchestration
     - Docker
     - Elixir
@@ -26,12 +25,15 @@ proficiencies:
     - JavaScript
     - Linux
     - Microservices
+    - Serverless
     - Nixos
     - Prometheus
     - Redis
     - Postgres
     - REST API
     - Envoy Service Mesh
+    - Terraform
+    - Ansible
 
 previous:
   title: Professional Experience
