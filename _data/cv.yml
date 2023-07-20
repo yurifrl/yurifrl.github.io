@@ -1,12 +1,12 @@
-title: Site Reliability Engineer
-city: São Paulo, Brazil
-content: A detail-oriented Software Engineer and Architect with a decade of experience in designing innovative solutions to meet dynamic business needs across various industries. Proficient in advanced programming tools, rapidly adaptable to emerging technologies, and known for challenging conventional methods.
+title: Platform Engineer
+location: Brazil
+content: Versatile and skilled engineer with expertise in Kubernetes, Linux, Golang, and ArgoCD, among other technologies. Experienced in designing and managing scalable systems, automating infrastructure, and ensuring efficient deployment workflows. Proficient in implementing modern software delivery practices and driving continuous improvement. Collaborative team player with a strong track record of delivering robust solutions.
 
 main_items:
-  - title: Innovative software engineer
-    content: Full software development lifecycle, from conceptualization through the delivery of next-generation applications and customizable solutions.
+  - title: Innovative engineer
+    content: Experienced in driving the full software development lifecycle, from conceptualization to the delivery of next-generation applications and customizable solutions. Committed to pushing boundaries and finding creative solutions to complex challenges, consistently exceeding expectations.
   - title: Expertise in Advanced Development Methodologies
-    content: Adept in microservices and container orchestration tools, contributed to the design and deployment of cutting-edge software applications.
+    content: Deep knowledge and hands-on experience with microservices and container orchestration tools. Played a pivotal role in designing and deploying cutting-edge software applications, leveraging the latest advancements in technology to deliver high-performance and scalable solutions.
 
 proficiencies:
   title: Proficiencies
@@ -38,13 +38,19 @@ proficiencies:
 previous:
   title: Professional Experience
   items:
-    - title: Site Reliability Engineer - Cloudwalk
+    - title: Staff Platform Engineer - Cloudwalk
       period: 12/20 to Present
       contents:
-        - Managed deployment pipeline and Kubernetes clusters
-        - Supervised status metrics and Postgres migration between providers
-        - Maintained internal CLI for running applications
-    - title: Software Engineer - Telnyx
+        - Engineered and deployed robust CI/CD pipelines with multi-cluster Kubernetes.
+        - Developed comprehensive system status metrics for actionable insights.
+        - Seamlessly migrated Postgres databases between providers, ensuring data integrity.
+        - Created an intuitive Internal CLI to improve development efficiency.
+        - Implemented Infrastructure as Code (IaC) principles using Terraform, Helm, and ArgoCD.
+        - Ensured system availability and service-level objectives (SLOs) through proactive incident management.
+        - Collaborated with software engineering teams to implement DevOps practices.
+        - Designed and implemented a scalable logging, monitoring, and alerting system.
+        - Provided on-call support and management, performed root cause analysis, and implemented preventative measures.
+    - title: Senior Software Engineer - Telnyx
       period: 12/20 to 11/22
       contents:
         - Developed and maintained production software using Elixir & Phoenix
@@ -54,14 +60,15 @@ previous:
         - Onboarded new team members and participated in technical hiring processes
         - Improved system observability and optimized deployment
         - Maintained service scalability, undertook on-call rotations, and adjusted alerts
-    - title: Site Reliability Engineer - Dafiti
+    - title: Senior Site Reliability Engineer - Dafiti
       period: 6/19 to 12/20
       contents:
         - Modernized Dafiti's legacy software architecture to cloud-based solutions
         - Managed automated Black Friday Stress testing and acceptance tests
         - Orchestrated application scalability based on custom metrics
+        - Performed vendor management, including cloud providers and third-party tool providers.
         - Implemented ArgoCD for application deployment and Istio for service mesh
-    - title: Site Reliability Engineer - Totvs
+    - title: Senior Site Reliability Engineer - Totvs
       period: 3/17 to 6/19
       contents:
         - Provisioned legacy software on the cloud using containers and Kubernetes
