@@ -3,7 +3,7 @@ permalink: /:title
 
 # My variables, this will go to `site` variable
 title: Yuri F. Lima
-description: Site Reliability Engineer
+description: Platform Engineer
 google_verification: google3efd61b6b9deca0b.html
 collections_dir: collections
 collections:
